@@ -17,7 +17,7 @@
            <li><a class="nav-item-text" href="">头像</a></li>
          </ul>
        </div>
-       <div :class="['d-menu-container',{active:showGlobalNavigator}]" @click="linkClickHandler" @mouseleave="menuMouseleaveHandler" @mouseenter="menuMouseenterHandler">
+       <!-- <div :class="['d-menu-container',{active:showGlobalNavigator}]" @click="linkClickHandler" @mouseleave="menuMouseleaveHandler" @mouseenter="menuMouseenterHandler">
          <div class="d-menu-list caiwu">
             <div class="caiwu-container">
                 <div class="d-menu-list-title ">财务应用</div>
@@ -101,7 +101,7 @@
               </ul>
             </div>
          </div>
-       </div>
+       </div> -->
     </div>
     <div class="header-container">
         <div class="parallax-con" ref='parallax' >
